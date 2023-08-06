@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+  color: white;
+  background-image: url(wall-wallpaper-concrete-colored-painted-textured-concept.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+h1{
+  font-size: 1.5em;
+  margin: 1em;
+  display: inline-block;
+  position: fixed;
+  
+}
+h2{
+  text-align: center;
+  font-size: 6em;
+  padding: 2em;
+
+}
+h3{
+    font-size: 3em;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    margin: 10em 8em;
+}
+
+.front{
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+nav{
+    font-size: 3em;
+    width: 20%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    position: fixed;
+ 
+}
+ul{
+  flex-wrap: wrap;
+  height: 100vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+
+}
+li{
+  margin: 0.6em;
+}
+
+main{
+  margin-right: 20%;
+
+}
+p{
+  font-size: 2em;
+}
+
+
+footer p {
+  font-size:1em;
+  padding: 2em;
+  position: fixed;
+  bottom: 0;
+}
